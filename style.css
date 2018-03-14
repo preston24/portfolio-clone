@@ -29,6 +29,10 @@ header {
   background-color: #212529;
 }
 
+p {
+  color: #6c757d;
+}
+
 .banner-section {
   color: white;
   background-image: url("https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg");
@@ -67,14 +71,54 @@ section {
 
 .title-h1 {
   color: #fed136;
+  cursor: pointer;
 }
 
 #banner h1 {
   font-size: 60px;
+  margin-top: -20px;
 }
 
 #banner h2 {
   font-size: 40px;
+}
+
+.contact-button {
+  background-color: #fed136;
+  color: white;
+  border-radius: 3px;
+  padding: 10px 10px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#footer-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icons {
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.footer-wording {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  color: #fed136;
+  cursor: pointer;
+}
+
+@media(min-width: 840px) {
+  #banner h1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 @media(min-width: 992px) {
